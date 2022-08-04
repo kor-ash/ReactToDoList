@@ -1,0 +1,64 @@
+.Container{
+    background-color:beige;
+    width: 500px;
+    height:450px;
+    border: 1px;
+    border-radius: 15px;
+    margin-left:300px;
+}
+.Btn{
+    width: 60px;
+    margin-left: 15px;
+    height: 25px;
+    color:white;
+    font-size: 15px;
+    background-color:black;
+    border-radius: 15px;
+}
+.Header{
+    background-color:lightgreen;
+    color:black;
+    text-decoration: dashed;
+    text-align: center;
+    border: 2px solid;
+    width:500px;
+    margin-left:300px;
+    margin-top:15px;
+    border-radius: 15px;
+}
+.Input{
+    text-align: center;
+    margin-left:120px;
+    width:250px;
+    height:20px;
+    color:black;
+    text-decoration: dashed;
+    font-size:25px;
+}
+.List{
+    font-size:30px;
+    width:350px;
+    margin-left:80px;
+    text-align: center;
+    border:solid 1px;
+    background-color:lightcyan;
+    border-radius: 15px;
+}
+.Del{
+    border:none;
+    border-radius:0;
+    height: 36px;
+    width: 36px;
+    background-color: inherit;
+}
+.Content:hover{
+    background-color:lightgrey;
+}
+.Del:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+.CheckBox{
+    position:relative;
+    right:20px;
+}
